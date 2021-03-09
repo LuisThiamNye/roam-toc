@@ -14,4 +14,4 @@ I would recommend saving this as a template with #roam/templates
 
 Some current limitations:
 - Markdown is not rendered
-- The heading must be visible on the page in order to jump to it.
+- The heading must be visible on the page in order to jump to it. (The script could be improved by automatically expanding blocks as necessary.)
