@@ -8,6 +8,8 @@ When clicking a heading, it scrolls to the location of the block instead of focu
 Usage:
 `{{[[roam/render]]: ((ref-to-clojure-codeblock))}}`
 
+The code is in toc.cljs
+
 I would recommend saving this as a template with #roam/templates
 
 Some current limitations:
