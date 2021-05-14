@@ -11,7 +11,6 @@
 
 (defn scroll-to-block [uid]
   (when-some [el (block-html-el uid)]
-    (js/console.log el)
     (.scrollIntoView el)))
 
 (defn flatten-block [acc block]
