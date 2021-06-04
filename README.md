@@ -3,6 +3,8 @@ A roam/render component that automatically generates a table of contents for the
 
 When clicking a heading, it scrolls to the location of the block instead of focusing on the block.
 
+Detailed instructions at RoamStack: [Add a table of contents to your pages with roam-toc](https://roamstack.com/kb/extensions/roam-toc/)
+
 ![Screenshot 2021-03-09 at 21 00 47](https://user-images.githubusercontent.com/41270840/110537409-8c6cb780-811a-11eb-80db-f58fce4fe3cb.png)
 
 **Usage:**
