@@ -37,7 +37,6 @@
           (conj acc (dissoc block :block/children))
           (sort-by :block/order (:block/children block))))
 
-
 (defn block->table-entry [block]
   [:div {:style {:margin-left (str (dec (:block/heading block)) "em")
                  :font-size (str (* 0.25 (- 7 (:block/heading block)))
