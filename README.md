@@ -15,8 +15,10 @@ The code is in toc.cljs
 I would recommend saving this as a template with #roam/templates
 
 Some current limitations:
-- The heading must be visible on the page in order to jump to it. (The script could be improved by automatically expanding blocks as necessary.)
+- After you have manually collapsed a parent block of a heading, jumping to that hidden heading will no longer work. You will have to navigate away from the page and back.
 
 ## Changelog:
+- 2021-06-14: Can now expand collapsed blocks and jump to hidden headings.
+
 - 2021-05-14: Supports rendering markdown:
 ![Screenshot 2021-05-14 at 17 11 40](https://user-images.githubusercontent.com/41270840/118298705-b99d6380-b4d7-11eb-9d28-8281200b78cf.png)
