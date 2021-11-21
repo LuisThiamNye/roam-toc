@@ -17,6 +17,18 @@ I would recommend saving this as a template with #roam/templates
 Some current limitations:
 - After you have manually collapsed a parent block of a heading, jumping to that hidden heading will no longer work. You will have to navigate away from the page and back.
 
+<details>
+  <summary>{{word-count}} showing as -1? Here's a workaround</summary>
+  
+  1. Create a dedicated block for the {{word-count}} nested under the heading
+  
+  1. Create a block ref in the heading, pointed to the word count block.
+  
+  ![](https://pbs.twimg.com/media/E32RMnCWEAQH2wP?format=png&name=small)
+  
+  [Tweet](https://twitter.com/LuisThiamNye/status/1404438761023447043)
+</details>
+
 ## Changelog:
 - 2021-06-14: Can now expand collapsed blocks and jump to hidden headings.
 
